@@ -14,6 +14,8 @@ enum Algorithm {
     case binarySearch
     case reverseStringSimple
     case reverseStringUsingArray
+    case palindromeUsingArray
+    case palindromeUsingString
     
     var displayName: String {
         switch self {
@@ -29,6 +31,10 @@ enum Algorithm {
             return String(localized: "Reverse_String_Simple")
         case .reverseStringUsingArray:
             return String(localized: "Reverse_String_Using_Array")
+        case .palindromeUsingArray:
+            return String(localized: "Palindrome_Using_Array")
+        case .palindromeUsingString:
+            return String(localized: "Palindrome_Using_String")
         }
     }
 }

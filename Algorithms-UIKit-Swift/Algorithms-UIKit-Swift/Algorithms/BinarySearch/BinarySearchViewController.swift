@@ -73,7 +73,7 @@ class BinarySearchViewController: UIViewController {
     }
     
     private func setWasFoundLabel(wasFound: Bool) {
-        let wasFoundString = wasFound ? "True" : "False"
+        let wasFoundString = wasFound ? String(localized: "True") : String(localized: "False")
         wasFoundLabel.text = String(localized: "Was_Found") + " = " + "\(wasFoundString)"
     }
 }
