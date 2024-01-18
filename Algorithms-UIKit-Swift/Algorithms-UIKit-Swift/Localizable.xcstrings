@@ -68,6 +68,23 @@
         }
       }
     },
+    "Enter_Value" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter a value:"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entrez une valeur :"
+          }
+        }
+      }
+    },
     "Factorial_Iteration" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -132,6 +149,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Membre de Fibonacci"
+          }
+        }
+      }
+    },
+    "Reverse_String_Simple" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reverse String - Simple"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chaîne inversée - Simple"
+          }
+        }
+      }
+    },
+    "Reverse_String_Using_Array" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reverse String - Using Array"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chaîne inversée - Utiliser un tableau"
+          }
+        }
+      }
+    },
+    "Reversed_String" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reversed string"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chaîne inversée"
           }
         }
       }

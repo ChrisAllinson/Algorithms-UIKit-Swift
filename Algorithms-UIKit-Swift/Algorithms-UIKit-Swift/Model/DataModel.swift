@@ -20,5 +20,7 @@ final class DataModel: DataModelProtocol {
         ListAlgorithmsRow(type: .factorialRecursion),
         ListAlgorithmsRow(type: .fibonacci),
         ListAlgorithmsRow(type: .binarySearch),
+        ListAlgorithmsRow(type: .reverseStringSimple),
+        ListAlgorithmsRow(type: .reverseStringUsingArray),
     ]
 }
