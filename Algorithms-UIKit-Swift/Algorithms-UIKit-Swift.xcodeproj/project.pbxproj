@@ -13,6 +13,9 @@
 		5680356E2B591D8600461F57 /* FibonacciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5680356C2B591D8600461F57 /* FibonacciViewController.swift */; };
 		5680356F2B591D8600461F57 /* FibonacciViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5680356D2B591D8600461F57 /* FibonacciViewController.xib */; };
 		568035712B591E4600461F57 /* FibonacciViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568035702B591E4600461F57 /* FibonacciViewModel.swift */; };
+		568035752B5927AC00461F57 /* BinarySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568035732B5927AC00461F57 /* BinarySearchViewController.swift */; };
+		568035762B5927AC00461F57 /* BinarySearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568035742B5927AC00461F57 /* BinarySearchViewController.xib */; };
+		568035782B5928D500461F57 /* BinarySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568035772B5928D500461F57 /* BinarySearchViewModel.swift */; };
 		568E51482B353AC300FFAD03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E51472B353AC300FFAD03 /* AppDelegate.swift */; };
 		568E514A2B353AC300FFAD03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E51492B353AC300FFAD03 /* SceneDelegate.swift */; };
 		568E514C2B353AC300FFAD03 /* AlgorithmsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E514B2B353AC300FFAD03 /* AlgorithmsListViewController.swift */; };
@@ -57,6 +60,9 @@
 		5680356C2B591D8600461F57 /* FibonacciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciViewController.swift; sourceTree = "<group>"; };
 		5680356D2B591D8600461F57 /* FibonacciViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FibonacciViewController.xib; sourceTree = "<group>"; };
 		568035702B591E4600461F57 /* FibonacciViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciViewModel.swift; sourceTree = "<group>"; };
+		568035732B5927AC00461F57 /* BinarySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchViewController.swift; sourceTree = "<group>"; };
+		568035742B5927AC00461F57 /* BinarySearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BinarySearchViewController.xib; sourceTree = "<group>"; };
+		568035772B5928D500461F57 /* BinarySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchViewModel.swift; sourceTree = "<group>"; };
 		568E51442B353AC300FFAD03 /* Algorithms-UIKit-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algorithms-UIKit-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		568E51472B353AC300FFAD03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		568E51492B353AC300FFAD03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +128,16 @@
 				568035702B591E4600461F57 /* FibonacciViewModel.swift */,
 			);
 			path = Fibonacci;
+			sourceTree = "<group>";
+		};
+		568035722B59274F00461F57 /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				568035742B5927AC00461F57 /* BinarySearchViewController.xib */,
+				568035732B5927AC00461F57 /* BinarySearchViewController.swift */,
+				568035772B5928D500461F57 /* BinarySearchViewModel.swift */,
+			);
+			path = BinarySearch;
 			sourceTree = "<group>";
 		};
 		568E513B2B353AC300FFAD03 = {
@@ -227,6 +243,7 @@
 			children = (
 				56B98E9F2B57B5C500B4CC68 /* Factorial */,
 				5680356B2B591D4300461F57 /* Fibonacci */,
+				568035722B59274F00461F57 /* BinarySearch */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -370,6 +387,7 @@
 				56B98E9A2B57B09000B4CC68 /* Localizable.xcstrings in Resources */,
 				5680356F2B591D8600461F57 /* FibonacciViewController.xib in Resources */,
 				568E51512B353AC500FFAD03 /* Assets.xcassets in Resources */,
+				568035762B5927AC00461F57 /* BinarySearchViewController.xib in Resources */,
 				568E514F2B353AC300FFAD03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				568E514C2B353AC300FFAD03 /* AlgorithmsListViewController.swift in Sources */,
+				568035782B5928D500461F57 /* BinarySearchViewModel.swift in Sources */,
 				56B98EAD2B57B79300B4CC68 /* FactorialRecursionViewModel.swift in Sources */,
 				56A62C3E2B3E0BF600CBCB33 /* AlgorithmListTableViewCell.swift in Sources */,
 				568035692B58D56F00461F57 /* FactorialBaseViewController.swift in Sources */,
@@ -405,6 +424,7 @@
 				56B98E952B57AC5500B4CC68 /* DataModel.swift in Sources */,
 				568E51482B353AC300FFAD03 /* AppDelegate.swift in Sources */,
 				568E514A2B353AC300FFAD03 /* SceneDelegate.swift in Sources */,
+				568035752B5927AC00461F57 /* BinarySearchViewController.swift in Sources */,
 				56B98E942B57AC5500B4CC68 /* Algorithm.swift in Sources */,
 				5680356E2B591D8600461F57 /* FibonacciViewController.swift in Sources */,
 				56B98E962B57AC5500B4CC68 /* ListAlgorithmsRow.swift in Sources */,

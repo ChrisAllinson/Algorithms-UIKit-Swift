@@ -29,6 +29,8 @@ class FactorialBaseViewController: UIViewController {
         super.viewDidLoad()
         
         selectValueLabel.text = String(localized: "Select_A_Value")
+        updateSliderValue(sliderValue: 0)
+        setCalculationLabel(sliderValue: 0, calculation: 1)
     }
     
     override func viewWillAppear(_ animated: Bool) {

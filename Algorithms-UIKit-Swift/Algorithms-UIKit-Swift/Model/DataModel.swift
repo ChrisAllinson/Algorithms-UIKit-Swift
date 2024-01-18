@@ -19,5 +19,6 @@ final class DataModel: DataModelProtocol {
         ListAlgorithmsRow(type: .factorialIteration),
         ListAlgorithmsRow(type: .factorialRecursion),
         ListAlgorithmsRow(type: .fibonacci),
+        ListAlgorithmsRow(type: .binarySearch),
     ]
 }

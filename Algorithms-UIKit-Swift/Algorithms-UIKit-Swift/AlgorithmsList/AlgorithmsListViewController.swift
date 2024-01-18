@@ -49,6 +49,9 @@ extension AlgorithmsListViewController: UITableViewDelegate {
         case 2:
             let viewController = FibonacciViewController.instantiate()
             navigationController?.pushViewController(viewController, animated: true)
+        case 3:
+            let viewController = BinarySearchViewController.instantiate()
+            navigationController?.pushViewController(viewController, animated: true)
         default:
             let viewController = UIViewController()
             navigationController?.pushViewController(viewController, animated: true)
