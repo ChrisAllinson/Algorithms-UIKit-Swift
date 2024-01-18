@@ -25,5 +25,6 @@ final class DataModel: DataModelProtocol {
         ListAlgorithmsRow(type: .palindromeUsingArray),
         ListAlgorithmsRow(type: .palindromeUsingString),
         ListAlgorithmsRow(type: .palindromes),
+        ListAlgorithmsRow(type: .pascalsTriangle)
     ]
 }

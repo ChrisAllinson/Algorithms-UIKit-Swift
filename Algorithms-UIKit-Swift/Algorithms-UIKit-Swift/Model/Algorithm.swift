@@ -17,6 +17,7 @@ enum Algorithm {
     case palindromeUsingArray
     case palindromeUsingString
     case palindromes
+    case pascalsTriangle
     
     var displayName: String {
         switch self {
@@ -38,6 +39,8 @@ enum Algorithm {
             return String(localized: "Palindrome_Using_String")
         case .palindromes:
             return String(localized: "Palindromes")
+        case .pascalsTriangle:
+            return String(localized: "Pascals_Triangle")
         }
     }
 }

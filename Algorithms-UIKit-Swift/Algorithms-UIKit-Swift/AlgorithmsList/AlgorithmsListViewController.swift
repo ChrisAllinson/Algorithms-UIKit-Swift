@@ -67,6 +67,9 @@ extension AlgorithmsListViewController: UITableViewDelegate {
         case 8:
             let viewController = PalindromesViewController.instantiate()
             navigationController?.pushViewController(viewController, animated: true)
+        case 9:
+            let viewController = PascalsTriangleViewController.instantiate()
+            navigationController?.pushViewController(viewController, animated: true)
         default:
             let viewController = UIViewController()
             navigationController?.pushViewController(viewController, animated: true)
