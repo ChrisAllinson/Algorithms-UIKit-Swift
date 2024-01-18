@@ -32,8 +32,8 @@
                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="Znz-i3-wzx">
                     <rect key="frame" x="14" y="128" width="365" height="31"/>
                     <connections>
-                        <action selector="slideValueUpdatedWithSender:" destination="-1" eventType="touchUpInside" id="5nP-oo-eeg"/>
-                        <action selector="slideValueUpdatedWithSender:" destination="-1" eventType="touchUpOutside" id="ghl-wj-oK8"/>
+                        <action selector="sliderValueUpdatedWithSender:" destination="-1" eventType="touchUpInside" id="lGT-MC-6av"/>
+                        <action selector="sliderValueUpdatedWithSender:" destination="-1" eventType="touchUpOutside" id="vjU-L6-KEI"/>
                     </connections>
                 </slider>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected value = 0" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EmR-F4-wtT">

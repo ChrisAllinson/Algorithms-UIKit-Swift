@@ -41,7 +41,7 @@ class FactorialBaseViewController: UIViewController {
     
     // MARK: IBActions
     
-    @IBAction private func slideValueUpdated(sender: UISlider) {
+    @IBAction private func sliderValueUpdated(sender: UISlider) {
         let roundedSliderValue = round(sender.value)
         let intSliderValue = UInt(roundedSliderValue)
         
