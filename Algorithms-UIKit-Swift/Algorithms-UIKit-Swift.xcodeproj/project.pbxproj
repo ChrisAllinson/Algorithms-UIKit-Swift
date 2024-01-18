@@ -22,6 +22,9 @@
 		56453A6B2B59DBD30058BAFC /* PalindromesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56453A692B59DBD30058BAFC /* PalindromesViewController.swift */; };
 		56453A6C2B59DBD30058BAFC /* PalindromesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56453A6A2B59DBD30058BAFC /* PalindromesViewController.xib */; };
 		56453A6E2B59DBE10058BAFC /* PalindromesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56453A6D2B59DBE10058BAFC /* PalindromesViewModel.swift */; };
+		56453A722B59E2B00058BAFC /* PascalsTriangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56453A702B59E2B00058BAFC /* PascalsTriangleViewController.swift */; };
+		56453A732B59E2B00058BAFC /* PascalsTriangleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56453A712B59E2B00058BAFC /* PascalsTriangleViewController.xib */; };
+		56453A752B59E2C30058BAFC /* PascalsTriangleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56453A742B59E2C30058BAFC /* PascalsTriangleViewModel.swift */; };
 		568035662B57CFA200461F57 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568035652B57CFA200461F57 /* UIViewControllerExtensions.swift */; };
 		568035692B58D56F00461F57 /* FactorialBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568035672B58D56F00461F57 /* FactorialBaseViewController.swift */; };
 		5680356A2B58D56F00461F57 /* FactorialBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568035682B58D56F00461F57 /* FactorialBaseViewController.xib */; };
@@ -84,6 +87,9 @@
 		56453A692B59DBD30058BAFC /* PalindromesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromesViewController.swift; sourceTree = "<group>"; };
 		56453A6A2B59DBD30058BAFC /* PalindromesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PalindromesViewController.xib; sourceTree = "<group>"; };
 		56453A6D2B59DBE10058BAFC /* PalindromesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromesViewModel.swift; sourceTree = "<group>"; };
+		56453A702B59E2B00058BAFC /* PascalsTriangleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangleViewController.swift; sourceTree = "<group>"; };
+		56453A712B59E2B00058BAFC /* PascalsTriangleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PascalsTriangleViewController.xib; sourceTree = "<group>"; };
+		56453A742B59E2C30058BAFC /* PascalsTriangleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangleViewModel.swift; sourceTree = "<group>"; };
 		568035652B57CFA200461F57 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		568035672B58D56F00461F57 /* FactorialBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialBaseViewController.swift; sourceTree = "<group>"; };
 		568035682B58D56F00461F57 /* FactorialBaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FactorialBaseViewController.xib; sourceTree = "<group>"; };
@@ -208,6 +214,16 @@
 				56453A6D2B59DBE10058BAFC /* PalindromesViewModel.swift */,
 			);
 			path = Palindromes;
+			sourceTree = "<group>";
+		};
+		56453A6F2B59E28E0058BAFC /* PascalsTriangle */ = {
+			isa = PBXGroup;
+			children = (
+				56453A712B59E2B00058BAFC /* PascalsTriangleViewController.xib */,
+				56453A702B59E2B00058BAFC /* PascalsTriangleViewController.swift */,
+				56453A742B59E2C30058BAFC /* PascalsTriangleViewModel.swift */,
+			);
+			path = PascalsTriangle;
 			sourceTree = "<group>";
 		};
 		568035642B57CF6F00461F57 /* Extensions */ = {
@@ -345,6 +361,7 @@
 				56453A462B59C9EE0058BAFC /* ReverseString */,
 				56453A592B59D3F20058BAFC /* Palindrome */,
 				56453A682B59DBBC0058BAFC /* Palindromes */,
+				56453A6F2B59E28E0058BAFC /* PascalsTriangle */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -489,6 +506,7 @@
 				56453A6C2B59DBD30058BAFC /* PalindromesViewController.xib in Resources */,
 				56453A5F2B59D4320058BAFC /* PalindromeBaseViewController.xib in Resources */,
 				56B98E9A2B57B09000B4CC68 /* Localizable.xcstrings in Resources */,
+				56453A732B59E2B00058BAFC /* PascalsTriangleViewController.xib in Resources */,
 				5680356F2B591D8600461F57 /* FibonacciViewController.xib in Resources */,
 				568E51512B353AC500FFAD03 /* Assets.xcassets in Resources */,
 				568035762B5927AC00461F57 /* BinarySearchViewController.xib in Resources */,
@@ -519,9 +537,11 @@
 			files = (
 				568E514C2B353AC300FFAD03 /* AlgorithmsListViewController.swift in Sources */,
 				568035782B5928D500461F57 /* BinarySearchViewModel.swift in Sources */,
+				56453A722B59E2B00058BAFC /* PascalsTriangleViewController.swift in Sources */,
 				56B98EAD2B57B79300B4CC68 /* FactorialRecursionViewModel.swift in Sources */,
 				56A62C3E2B3E0BF600CBCB33 /* AlgorithmListTableViewCell.swift in Sources */,
 				568035692B58D56F00461F57 /* FactorialBaseViewController.swift in Sources */,
+				56453A752B59E2C30058BAFC /* PascalsTriangleViewModel.swift in Sources */,
 				568035662B57CFA200461F57 /* UIViewControllerExtensions.swift in Sources */,
 				56453A6E2B59DBE10058BAFC /* PalindromesViewModel.swift in Sources */,
 				56B98EA42B57B68300B4CC68 /* FactorialIterationViewController.swift in Sources */,

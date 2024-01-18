@@ -1,5 +1,5 @@
 //
-//  FibonacciViewController.swift
+//  PascalsTriangleViewController.swift
 //  Algorithms-UIKit-Swift
 //
 //  Created by Chris Allinson on 2024-01-18.
@@ -7,15 +7,15 @@
 
 import UIKit
 
-class FibonacciViewController: UIViewController {
+class PascalsTriangleViewController: UIViewController {
     
     // MARK: static properties
     
-    private static let nibName = "FibonacciViewController"
+    private static let nibName = "PascalsTriangleViewController"
     
     // MARK: instance properties
     
-    var viewModel: FibonacciManagable!
+    var viewModel: PascalsTriangleManagable!
 
     // MARK: IBOutlets
     
@@ -26,8 +26,8 @@ class FibonacciViewController: UIViewController {
     
     // MARK: lifecycle methods
     
-    static func instantiate(viewModel: FibonacciManagable = FibonacciViewModel()) -> FibonacciViewController {
-        let viewController = FibonacciViewController.init(nibName: FibonacciViewController.nibName, bundle: Bundle.main)
+    static func instantiate(viewModel: PascalsTriangleManagable = PascalsTriangleViewModel()) -> PascalsTriangleViewController {
+        let viewController = PascalsTriangleViewController.init(nibName: PascalsTriangleViewController.nibName, bundle: Bundle.main)
         viewController.viewModel = viewModel
         return viewController
     }
@@ -35,10 +35,10 @@ class FibonacciViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setNavigationController(title: "Fibonacci")
+        setNavigationController(title: "Pascals_Triangle")
         selectValueLabel.text = String(localized: "Select_A_Value")
         updateSelectedValueLabel(sliderValue: 0)
-        setCalculationLabel(calculation: 0)
+        setCalculationLabel(calculation: [0])
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -51,26 +51,26 @@ class FibonacciViewController: UIViewController {
     
     @IBAction private func sliderValueUpdated(sender: UISlider) {
         let roundedSliderValue = round(sender.value)
-        let intSliderValue = UInt(roundedSliderValue)
+        let intSliderValue = Int(roundedSliderValue)
         
         updateSliderValue(sliderValue: intSliderValue)
         updateSelectedValueLabel(sliderValue: intSliderValue)
         
-        let calculation = viewModel.calculateNthFibonacciValue(n: intSliderValue)
+        let calculation = viewModel.generatePascalsTriangle(row: intSliderValue)
         setCalculationLabel(calculation: calculation)
     }
     
     // MARK: private methods
     
-    private func updateSliderValue(sliderValue: UInt) {
+    private func updateSliderValue(sliderValue: Int) {
         valueSlider.value = Float(sliderValue)
     }
     
-    private func updateSelectedValueLabel(sliderValue: UInt) {
+    private func updateSelectedValueLabel(sliderValue: Int) {
         selectedValueLabel.text = String(localized: "Selected_Value") + " = " + "\(sliderValue)"
     }
     
-    private func setCalculationLabel(calculation: UInt) {
-        calculationLabel.text = String(localized: "Fibonacci_Member") + " = " + "\(calculation)"
+    private func setCalculationLabel(calculation: [Int]) {
+        calculationLabel.text = String(localized: "Pascals_Triangle_Row") + " = " + "\(calculation)"
     }
 }

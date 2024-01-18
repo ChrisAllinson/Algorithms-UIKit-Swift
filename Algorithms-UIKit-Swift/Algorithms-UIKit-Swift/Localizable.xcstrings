@@ -238,6 +238,40 @@
         }
       }
     },
+    "Pascals_Triangle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pascal's Triangle"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le Triangle de Pascal"
+          }
+        }
+      }
+    },
+    "Pascals_Triangle_Row" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pascal's Triangle row"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rangée du Triangle de Pascal"
+          }
+        }
+      }
+    },
     "Reverse_String_Simple" : {
       "localizations" : {
         "en" : {
