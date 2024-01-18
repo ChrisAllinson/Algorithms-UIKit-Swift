@@ -52,6 +52,12 @@ extension AlgorithmsListViewController: UITableViewDelegate {
         case 3:
             let viewController = BinarySearchViewController.instantiate()
             navigationController?.pushViewController(viewController, animated: true)
+        case 4:
+            let viewController = ReverseStringSimpleViewController.instantiate()
+            navigationController?.pushViewController(viewController, animated: true)
+        case 5:
+            let viewController = ReverseStringUsingArrayViewController.instantiate()
+            navigationController?.pushViewController(viewController, animated: true)
         default:
             let viewController = UIViewController()
             navigationController?.pushViewController(viewController, animated: true)
