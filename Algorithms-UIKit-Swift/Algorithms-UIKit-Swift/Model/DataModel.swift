@@ -24,5 +24,6 @@ final class DataModel: DataModelProtocol {
         ListAlgorithmsRow(type: .reverseStringUsingArray),
         ListAlgorithmsRow(type: .palindromeUsingArray),
         ListAlgorithmsRow(type: .palindromeUsingString),
+        ListAlgorithmsRow(type: .palindromes),
     ]
 }
