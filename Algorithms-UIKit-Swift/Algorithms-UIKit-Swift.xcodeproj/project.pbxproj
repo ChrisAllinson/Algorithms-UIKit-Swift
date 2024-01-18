@@ -13,6 +13,12 @@
 		56453A502B59CB1E0058BAFC /* ReverseStringUsingArrayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56453A4F2B59CB1E0058BAFC /* ReverseStringUsingArrayViewModel.swift */; };
 		56453A532B59CBB50058BAFC /* ReverseStringSimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56453A512B59CBB50058BAFC /* ReverseStringSimpleViewController.swift */; };
 		56453A572B59CBC40058BAFC /* ReverseStringUsingArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56453A552B59CBC40058BAFC /* ReverseStringUsingArrayViewController.swift */; };
+		56453A5E2B59D4320058BAFC /* PalindromeBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56453A5C2B59D4320058BAFC /* PalindromeBaseViewController.swift */; };
+		56453A5F2B59D4320058BAFC /* PalindromeBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56453A5D2B59D4320058BAFC /* PalindromeBaseViewController.xib */; };
+		56453A612B59D4810058BAFC /* PalindromeUsingArrayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56453A602B59D4810058BAFC /* PalindromeUsingArrayViewModel.swift */; };
+		56453A632B59D48D0058BAFC /* PalindromeUsingStringViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56453A622B59D48D0058BAFC /* PalindromeUsingStringViewModel.swift */; };
+		56453A652B59D6950058BAFC /* PalindromeUsingArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56453A642B59D6950058BAFC /* PalindromeUsingArrayViewController.swift */; };
+		56453A672B59D6A60058BAFC /* PalindromeUsingStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56453A662B59D6A60058BAFC /* PalindromeUsingStringViewController.swift */; };
 		568035662B57CFA200461F57 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568035652B57CFA200461F57 /* UIViewControllerExtensions.swift */; };
 		568035692B58D56F00461F57 /* FactorialBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568035672B58D56F00461F57 /* FactorialBaseViewController.swift */; };
 		5680356A2B58D56F00461F57 /* FactorialBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568035682B58D56F00461F57 /* FactorialBaseViewController.xib */; };
@@ -66,6 +72,12 @@
 		56453A4F2B59CB1E0058BAFC /* ReverseStringUsingArrayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringUsingArrayViewModel.swift; sourceTree = "<group>"; };
 		56453A512B59CBB50058BAFC /* ReverseStringSimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringSimpleViewController.swift; sourceTree = "<group>"; };
 		56453A552B59CBC40058BAFC /* ReverseStringUsingArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringUsingArrayViewController.swift; sourceTree = "<group>"; };
+		56453A5C2B59D4320058BAFC /* PalindromeBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeBaseViewController.swift; sourceTree = "<group>"; };
+		56453A5D2B59D4320058BAFC /* PalindromeBaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PalindromeBaseViewController.xib; sourceTree = "<group>"; };
+		56453A602B59D4810058BAFC /* PalindromeUsingArrayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeUsingArrayViewModel.swift; sourceTree = "<group>"; };
+		56453A622B59D48D0058BAFC /* PalindromeUsingStringViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeUsingStringViewModel.swift; sourceTree = "<group>"; };
+		56453A642B59D6950058BAFC /* PalindromeUsingArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeUsingArrayViewController.swift; sourceTree = "<group>"; };
+		56453A662B59D6A60058BAFC /* PalindromeUsingStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeUsingStringViewController.swift; sourceTree = "<group>"; };
 		568035652B57CFA200461F57 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		568035672B58D56F00461F57 /* FactorialBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorialBaseViewController.swift; sourceTree = "<group>"; };
 		568035682B58D56F00461F57 /* FactorialBaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FactorialBaseViewController.xib; sourceTree = "<group>"; };
@@ -151,6 +163,35 @@
 				56453A4F2B59CB1E0058BAFC /* ReverseStringUsingArrayViewModel.swift */,
 			);
 			path = UsingArray;
+			sourceTree = "<group>";
+		};
+		56453A592B59D3F20058BAFC /* Palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				56453A5D2B59D4320058BAFC /* PalindromeBaseViewController.xib */,
+				56453A5C2B59D4320058BAFC /* PalindromeBaseViewController.swift */,
+				56453A5A2B59D40A0058BAFC /* Using Array */,
+				56453A5B2B59D4100058BAFC /* Using String */,
+			);
+			path = Palindrome;
+			sourceTree = "<group>";
+		};
+		56453A5A2B59D40A0058BAFC /* Using Array */ = {
+			isa = PBXGroup;
+			children = (
+				56453A642B59D6950058BAFC /* PalindromeUsingArrayViewController.swift */,
+				56453A602B59D4810058BAFC /* PalindromeUsingArrayViewModel.swift */,
+			);
+			path = "Using Array";
+			sourceTree = "<group>";
+		};
+		56453A5B2B59D4100058BAFC /* Using String */ = {
+			isa = PBXGroup;
+			children = (
+				56453A662B59D6A60058BAFC /* PalindromeUsingStringViewController.swift */,
+				56453A622B59D48D0058BAFC /* PalindromeUsingStringViewModel.swift */,
+			);
+			path = "Using String";
 			sourceTree = "<group>";
 		};
 		568035642B57CF6F00461F57 /* Extensions */ = {
@@ -286,6 +327,7 @@
 				5680356B2B591D4300461F57 /* Fibonacci */,
 				568035722B59274F00461F57 /* BinarySearch */,
 				56453A462B59C9EE0058BAFC /* ReverseString */,
+				56453A592B59D3F20058BAFC /* Palindrome */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -427,6 +469,7 @@
 				5680356A2B58D56F00461F57 /* FactorialBaseViewController.xib in Resources */,
 				56453A4A2B59CA850058BAFC /* ReverseStringBaseViewController.xib in Resources */,
 				568E51542B353AC500FFAD03 /* LaunchScreen.storyboard in Resources */,
+				56453A5F2B59D4320058BAFC /* PalindromeBaseViewController.xib in Resources */,
 				56B98E9A2B57B09000B4CC68 /* Localizable.xcstrings in Resources */,
 				5680356F2B591D8600461F57 /* FibonacciViewController.xib in Resources */,
 				568E51512B353AC500FFAD03 /* Assets.xcassets in Resources */,
@@ -466,14 +509,19 @@
 				56453A492B59CA850058BAFC /* ReverseStringBaseViewController.swift in Sources */,
 				56B98EA72B57B6DD00B4CC68 /* FactorialIterationViewModel.swift in Sources */,
 				56453A572B59CBC40058BAFC /* ReverseStringUsingArrayViewController.swift in Sources */,
+				56453A672B59D6A60058BAFC /* PalindromeUsingStringViewController.swift in Sources */,
 				56453A502B59CB1E0058BAFC /* ReverseStringUsingArrayViewModel.swift in Sources */,
 				56B98E952B57AC5500B4CC68 /* DataModel.swift in Sources */,
+				56453A5E2B59D4320058BAFC /* PalindromeBaseViewController.swift in Sources */,
 				568E51482B353AC300FFAD03 /* AppDelegate.swift in Sources */,
 				568E514A2B353AC300FFAD03 /* SceneDelegate.swift in Sources */,
 				568035752B5927AC00461F57 /* BinarySearchViewController.swift in Sources */,
 				56453A4D2B59CADB0058BAFC /* ReverseStringSimpleViewModel.swift in Sources */,
 				56B98E942B57AC5500B4CC68 /* Algorithm.swift in Sources */,
+				56453A652B59D6950058BAFC /* PalindromeUsingArrayViewController.swift in Sources */,
+				56453A612B59D4810058BAFC /* PalindromeUsingArrayViewModel.swift in Sources */,
 				5680356E2B591D8600461F57 /* FibonacciViewController.swift in Sources */,
+				56453A632B59D48D0058BAFC /* PalindromeUsingStringViewModel.swift in Sources */,
 				56453A532B59CBB50058BAFC /* ReverseStringSimpleViewController.swift in Sources */,
 				56B98E962B57AC5500B4CC68 /* ListAlgorithmsRow.swift in Sources */,
 				568035712B591E4600461F57 /* FibonacciViewModel.swift in Sources */,
