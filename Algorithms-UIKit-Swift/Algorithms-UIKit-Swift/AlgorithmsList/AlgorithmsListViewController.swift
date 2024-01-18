@@ -64,6 +64,9 @@ extension AlgorithmsListViewController: UITableViewDelegate {
         case 7:
             let viewController = PalindromeUsingStringViewController.instantiate()
             navigationController?.pushViewController(viewController, animated: true)
+        case 8:
+            let viewController = PalindromesViewController.instantiate()
+            navigationController?.pushViewController(viewController, animated: true)
         default:
             let viewController = UIViewController()
             navigationController?.pushViewController(viewController, animated: true)

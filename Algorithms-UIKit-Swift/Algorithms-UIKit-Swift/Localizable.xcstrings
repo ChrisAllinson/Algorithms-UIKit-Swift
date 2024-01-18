@@ -221,6 +221,23 @@
         }
       }
     },
+    "Palindromes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palindromes"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palindromes"
+          }
+        }
+      }
+    },
     "Reverse_String_Simple" : {
       "localizations" : {
         "en" : {
