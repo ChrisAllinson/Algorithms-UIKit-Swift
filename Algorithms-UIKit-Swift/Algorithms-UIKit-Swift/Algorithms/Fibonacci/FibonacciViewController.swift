@@ -35,6 +35,7 @@ class FibonacciViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setNavigationController(title: "Fibonacci")
         selectValueLabel.text = String(localized: "Select_A_Value")
     }
     
