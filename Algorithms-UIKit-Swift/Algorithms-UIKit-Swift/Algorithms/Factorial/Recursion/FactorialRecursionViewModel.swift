@@ -10,7 +10,7 @@ import Foundation
 struct FactorialRecursionViewModel {
 }
 
-// MARK: FactorialRecursionManagable
+// MARK: FactorialManagable
 extension FactorialRecursionViewModel: FactorialManagable {
     
     /**

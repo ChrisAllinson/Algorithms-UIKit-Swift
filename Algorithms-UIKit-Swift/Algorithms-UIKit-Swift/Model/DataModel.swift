@@ -22,5 +22,7 @@ final class DataModel: DataModelProtocol {
         ListAlgorithmsRow(type: .binarySearch),
         ListAlgorithmsRow(type: .reverseStringSimple),
         ListAlgorithmsRow(type: .reverseStringUsingArray),
+        ListAlgorithmsRow(type: .palindromeUsingArray),
+        ListAlgorithmsRow(type: .palindromeUsingString),
     ]
 }

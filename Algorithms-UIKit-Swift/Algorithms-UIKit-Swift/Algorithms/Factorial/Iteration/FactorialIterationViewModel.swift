@@ -10,7 +10,7 @@ import Foundation
 struct FactorialIterationViewModel {
 }
 
-// MARK: FactorialIterationManagable
+// MARK: FactorialManagable
 extension FactorialIterationViewModel: FactorialManagable {
     
     /**

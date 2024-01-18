@@ -10,7 +10,7 @@ import Foundation
 struct ReverseStringUsingArrayViewModel {
 }
 
-// MARK: ReverseStringUsingArrayManagable
+// MARK: ReverseStringManagable
 extension ReverseStringUsingArrayViewModel: ReverseStringManagable {
     
     /**

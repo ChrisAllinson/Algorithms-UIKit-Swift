@@ -10,7 +10,7 @@ import Foundation
 struct ReverseStringSimpleViewModel {
 }
 
-// MARK: ReverseStringSimpleManagable
+// MARK: ReverseStringManagable
 extension ReverseStringSimpleViewModel: ReverseStringManagable {
     
     /**

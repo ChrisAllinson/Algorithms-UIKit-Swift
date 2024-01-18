@@ -119,6 +119,23 @@
         }
       }
     },
+    "False" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "False"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faux"
+          }
+        }
+      }
+    },
     "Fibonacci" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -149,6 +166,57 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Membre de Fibonacci"
+          }
+        }
+      }
+    },
+    "Is_A_Palindrome" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Is a palindrome"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Est un palindrome"
+          }
+        }
+      }
+    },
+    "Palindrome_Using_Array" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palindrome - Using Array"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palindrome - Utiliser un tableau"
+          }
+        }
+      }
+    },
+    "Palindrome_Using_String" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palindrome - Using String"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palindrome - Utiliser une chaîne"
           }
         }
       }
@@ -248,6 +316,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valeur sélectionnée"
+          }
+        }
+      }
+    },
+    "True" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "True"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vrai"
           }
         }
       }
