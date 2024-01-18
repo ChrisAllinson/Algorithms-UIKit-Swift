@@ -10,6 +10,7 @@ import Foundation
 enum Algorithm {
     case factorialIteration
     case factorialRecursion
+    case fibonacci
     
     var displayName: String {
         switch self {
@@ -17,6 +18,8 @@ enum Algorithm {
             return String(localized: "Factorial_Iteration")
         case .factorialRecursion:
             return String(localized: "Factorial_Recursion")
+        case .fibonacci:
+            return String(localized: "Fibonacci")
         }
     }
 }
