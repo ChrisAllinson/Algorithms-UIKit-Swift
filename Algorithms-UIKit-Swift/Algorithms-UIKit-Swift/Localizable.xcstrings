@@ -34,6 +34,40 @@
         }
       }
     },
+    "Binary_Search" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binary Search"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recherche Binaire"
+          }
+        }
+      }
+    },
+    "Data_Set" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data set:"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Base de données :"
+          }
+        }
+      }
+    },
     "Factorial_Iteration" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -102,6 +136,23 @@
         }
       }
     },
+    "Search_For" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search for:"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher :"
+          }
+        }
+      }
+    },
     "Select_A_Value" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -132,6 +183,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valeur sélectionnée"
+          }
+        }
+      }
+    },
+    "Was_Found" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was found"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A été trouvé"
           }
         }
       }

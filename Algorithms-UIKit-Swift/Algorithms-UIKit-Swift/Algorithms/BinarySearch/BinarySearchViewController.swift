@@ -1,5 +1,5 @@
 //
-//  FibonacciViewController.swift
+//  BinarySearchViewController.swift
 //  Algorithms-UIKit-Swift
 //
 //  Created by Chris Allinson on 2024-01-18.
@@ -7,27 +7,28 @@
 
 import UIKit
 
-class FibonacciViewController: UIViewController {
+class BinarySearchViewController: UIViewController {
     
     // MARK: static properties
     
-    private static let nibName = "FibonacciViewController"
+    private static let nibName = "BinarySearchViewController"
     
     // MARK: instance properties
     
-    var viewModel: FibonacciManagable!
-
+    var viewModel: BinarySearchManagable!
+    
     // MARK: IBOutlets
     
-    @IBOutlet private var selectValueLabel: UILabel!
+    @IBOutlet private var dataSetLabel: UILabel!
+    @IBOutlet private var searchForLabel: UILabel!
     @IBOutlet private var valueSlider: UISlider!
     @IBOutlet private var selectedValueLabel: UILabel!
-    @IBOutlet private var calculationLabel: UILabel!
+    @IBOutlet private var wasFoundLabel: UILabel!
     
     // MARK: lifecycle methods
-    
-    static func instantiate(viewModel: FibonacciManagable = FibonacciViewModel()) -> FibonacciViewController {
-        let viewController = FibonacciViewController.init(nibName: FibonacciViewController.nibName, bundle: Bundle.main)
+
+    static func instantiate(viewModel: BinarySearchManagable = BinarySearchViewModel()) -> BinarySearchViewController {
+        let viewController = BinarySearchViewController.init(nibName: BinarySearchViewController.nibName, bundle: Bundle.main)
         viewController.viewModel = viewModel
         return viewController
     }
@@ -35,10 +36,11 @@ class FibonacciViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setNavigationController(title: "Fibonacci")
-        selectValueLabel.text = String(localized: "Select_A_Value")
+        setNavigationController(title: "Binary_Search")
+        dataSetLabel.text = String(localized: "Data_Set")
+        searchForLabel.text = String(localized: "Search_For")
         updateSelectedValueLabel(sliderValue: 0)
-        setCalculationLabel(calculation: 0)
+        setWasFoundLabel(wasFound: false)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -56,8 +58,8 @@ class FibonacciViewController: UIViewController {
         updateSliderValue(sliderValue: intSliderValue)
         updateSelectedValueLabel(sliderValue: intSliderValue)
         
-        let calculation = viewModel.calculateNthFibonacciValue(n: intSliderValue)
-        setCalculationLabel(calculation: calculation)
+        let wasFoundCalculation = viewModel.binarySearchFor(Int(intSliderValue), inArray: viewModel.dataSet, leftIndex: 0, rightIndex: viewModel.dataSet.count - 1)
+        setWasFoundLabel(wasFound: wasFoundCalculation)
     }
     
     // MARK: private methods
@@ -70,7 +72,8 @@ class FibonacciViewController: UIViewController {
         selectedValueLabel.text = String(localized: "Selected_Value") + " = " + "\(sliderValue)"
     }
     
-    private func setCalculationLabel(calculation: UInt) {
-        calculationLabel.text = String(localized: "Fibonacci_Member") + " = " + "\(calculation)"
+    private func setWasFoundLabel(wasFound: Bool) {
+        let wasFoundString = wasFound ? "True" : "False"
+        wasFoundLabel.text = String(localized: "Was_Found") + " = " + "\(wasFoundString)"
     }
 }

@@ -11,6 +11,7 @@ enum Algorithm {
     case factorialIteration
     case factorialRecursion
     case fibonacci
+    case binarySearch
     
     var displayName: String {
         switch self {
@@ -20,6 +21,8 @@ enum Algorithm {
             return String(localized: "Factorial_Recursion")
         case .fibonacci:
             return String(localized: "Fibonacci")
+        case .binarySearch:
+            return String(localized: "Binary_Search")
         }
     }
 }
