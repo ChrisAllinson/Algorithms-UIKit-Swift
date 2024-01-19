@@ -750,6 +750,7 @@
 				DEVELOPMENT_TEAM = NL2F6STRPK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Algorithms-UIKit-Swift/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = UIKit;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -779,6 +780,7 @@
 				DEVELOPMENT_TEAM = NL2F6STRPK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Algorithms-UIKit-Swift/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = UIKit;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
